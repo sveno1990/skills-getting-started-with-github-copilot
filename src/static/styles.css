@@ -142,3 +142,56 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants-section {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed #eceff1;
+}
+
+.participants-section h5 {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  color: #37474f;
+}
+
+.participants-list {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  color: #263238;
+}
+
+.participants-list li {
+  padding: 4px 0;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.participant-delete {
+  background: none;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.participant-delete:hover {
+  color: #b71c1c;
+  background-color: rgba(198, 40, 40, 0.08);
+}
+
+.participant-delete:focus {
+  outline: 2px solid rgba(26, 35, 126, 0.3);
+  outline-offset: 2px;
+}
+
+.no-participants {
+  color: #607d8b;
+  font-style: italic;
+  font-size: 14px;
+}
